@@ -20,7 +20,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         <!-- BTC Card -->
         <CryptoCard
-          name="Bitcoin1"
+          name="Bitcoin"
           symbol="BTC"
           :price="prices.BTC.current"
           :previousPrice="prices.BTC.previous"
@@ -30,7 +30,7 @@
 
         <!-- ETH Card -->
         <CryptoCard
-          name="Ethereum1"
+          name="Ethereum"
           symbol="ETH"
           :price="prices.ETH.current"
           :previousPrice="prices.ETH.previous"
